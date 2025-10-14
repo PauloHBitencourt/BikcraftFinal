@@ -1,40 +1,6 @@
-body {
-  margin: 0;
-  font-family: Arial, Arial, Helvetica, sans-serif;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header-bg {
-  background-color: #000;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.25rem;
-  box-sizing: border-box;
-  max-width: 75rem;
-  margin: 0 auto;
-}
-
-.header-menu {
-  display: flex;
-  gap: 2.5rem;
-}
-
-.header-menu a {
-  font-size:18px;
-  color: #ffffff;
-  display: inline-block;
-  padding: 16px 0px;
-}
+@import "./global/global.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./global/header.css";
+@import "./home/introducao.css";
+@import "./utilidades/componentes.css";
