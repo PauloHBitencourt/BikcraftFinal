@@ -1,13 +1,13 @@
 .form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .form label {
   display: block;
   font: 600 1rem/1.5 "Poppins", sans-serif;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 
 .form .col-2 {
@@ -19,9 +19,9 @@
 .form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--cor-1);
-  border: 1px solid var(--cor-2);
-  padding: 12px;
-  border-radius: 4px;
+  border: 0.0625rem solid var(--cor-2);
+  padding: 0.75rem;
+  border-radius: 0.25rem;
   width: 100%;
   box-sizing: border-box;
 }
@@ -32,10 +32,10 @@
   outline: none;
   border-color: var(--cor-p1);
   background: var(--cor-0);
-  box-shadow: 0 0 0 2px #fea;
+  box-shadow: 0 0 0 0.125rem #fea;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .form {
     grid-template-columns: 1fr;
   }
